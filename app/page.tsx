@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useDebounce } from "../hooks/useDebounce";
+import Link from "next/link";
 
 const DebounceDemo = () => {
   const [inputValue, setInputValue] = useState("");
@@ -35,6 +36,15 @@ const DebounceDemo = () => {
           <span className="font-semibold">{inputValue}</span>
         </p>
       </div>
+      <p>
+        <Link
+          title="View Source Code"
+          target="_blank"
+          href="https://github.com/owolfdev/debounce-hook/blob/main/hooks/useDebounce.ts"
+        >
+          https://github.com/owolfdev/debounce-hook/blob/main/hooks/useDebounce.ts
+        </Link>
+      </p>
     </div>
   );
 };
