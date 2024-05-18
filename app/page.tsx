@@ -78,7 +78,7 @@ const DebounceDemo = () => {
             <span className="text-gray-400">Waiting for input...</span>
           )}
         </p>
-        <p className="text-sm">Events Fired: {debouncedEventCount}</p>
+        <p className="text-sm pt-1">Events Fired: {debouncedEventCount}</p>
       </div>
       <div>
         <h4 className="font-bold text-xl">Output Without Debounce</h4>
@@ -90,7 +90,7 @@ const DebounceDemo = () => {
             <span className="text-gray-400">Waiting for input...</span>
           )}
         </p>
-        <p className="text-sm">Events Fired: {eventCount}</p>
+        <p className="text-sm  pt-1">Events Fired: {eventCount}</p>
       </div>
       <label className="font-bold pt-8">Select Debounce Delay (ms):</label>
       <select
